@@ -181,7 +181,7 @@ Search is powered by [Simple-Jekyll-Search](https://github.com/christian-fei/Sim
 You can specify a custom base URL (eg. example.com/blog/) by adding the following line to `_config.yaml`. Note that there is no trailing slash on the URL.
 
 ```yaml
-baseurl: "MinJeongwon.github.io"
+baseurl: "/blog"
 ```
 
 **Language**
