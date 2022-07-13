@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Work
+permalink: /work/
 ---
 
-profile
+list of works
 
 [jekyll-organization]: https://github.com/jekyll
