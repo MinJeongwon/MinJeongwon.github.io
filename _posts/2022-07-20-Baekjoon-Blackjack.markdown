@@ -64,7 +64,7 @@ cards = list(map(int, input().split(' '))) # 둘째 줄에는 카드에 쓰여 �
 * itertools의 combination      
   combinations 함수를 사용하면 모든 조합의 경우가 출력됨    
   ``` python
-  from itertools import combinationN
+  from itertools import combination
   combinations(cards, 3)
   >>> (5, 6, 7)
   (5, 6, 8)
@@ -142,8 +142,12 @@ print(result)
 <br>
 
 
-## <span style="background-color:#fff5b1;">총정리-itertools를 사용하는 방법</span>
+## <span style="background-color:#fff5b1;">총정리-itertools를 사용하는 방법</span>    
+메모리 : 30840     
+시간 : 104ms   
 ``` python
+from itertools import combinations
+
 card_len, M = map(int, input().split(' ')) 
 cards = list(map(int, input().split(' '))) 
 
@@ -162,7 +166,9 @@ print(sum_temp)
 <br>
 
 
-## <span style="background-color:#fff5b1;">총정리-for문을 사용하는 방법</span>
+## <span style="background-color:#fff5b1;">총정리-for문을 사용하는 방법</span>     
+메모리 : 30840     
+시간 : 140ms        
 ``` python
 card_len, M = map(int, input().split(' ')) 
 cards = list(map(int, input().split(' '))) 
@@ -180,4 +186,4 @@ for a in range(0, card_len):
 print(result)
 ```
 
-[블랙잭]: https://www.acmicpc.net/problem/2920 
+[블랙잭]: https://www.acmicpc.net/problem/2798

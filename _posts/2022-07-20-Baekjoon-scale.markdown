@@ -128,7 +128,7 @@ else:
 scale = list(map(int, input().split(' ')))
 
 ascending = True
-descending = False
+descending = True
 
 for i in range(1, 8):
   if scale[i] > scale[i-1]:

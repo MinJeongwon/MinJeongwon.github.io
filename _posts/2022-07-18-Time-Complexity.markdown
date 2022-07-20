@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "알고리즘의 복잡도 - Big O 표기법"
+title:  "알고리즘의 복잡도"
 date:   2022-07-18 08:43:11 +0900
 categories: algorithm
 use_math: true
 comments: true
 ---
+Big O 표기법
+
 
 <br>   
 

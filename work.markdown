@@ -1,7 +1,7 @@
 ---
 layout: dialogue
-#title: Work
-#permalink: /work/
+title: Work
+permalink: /work/
 ---
 
 
