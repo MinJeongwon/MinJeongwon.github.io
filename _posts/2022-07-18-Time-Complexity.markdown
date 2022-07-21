@@ -29,7 +29,7 @@ Big O 표기법
 ### $O(1)<O(logn)<O(n)<O(nlogn)<O(n^2)<O(2^n)<O(n!)$ 
 
 <p align="center">
-  <img src="https://velog.velcdn.com/images/leeseungsoo0701/post/17715e7a-f599-44f9-9359-ca0470d84326/big-O.png" width="500">    
+  <img src="https://velog.velcdn.com/images/leeseungsoo0701/post/17715e7a-f599-44f9-9359-ca0470d84326/big-O.png" width="500">     
 </p>
 
 

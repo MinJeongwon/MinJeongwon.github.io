@@ -113,8 +113,8 @@ result = [] # 마지막 결과로 반환해주어야 하기 때문에 변수명�
 
 
 ## <span style="background-color:#fff5b1;">총정리</span>    
-메모리 : 30840     
-시간 : 104ms   
+메모리 : 32816     
+시간 : 4016ms   
 ``` python
 n = int(input())
 
