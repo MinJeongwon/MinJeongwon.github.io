@@ -79,28 +79,29 @@ result = [] # 마지막 결과로 반환해주어야 하기 때문에 변수명�
 ## 스택에 대해 append, pop 수행하는 코드
 * append : 스택에 들어갔던 마지막 수 이후부터 입력으로 받는 숫자까지 오름차순으로 붙이기 
 * pop : 입력으로 받는 숫자와 스택의 마지막 숫자가 같은 경우 반환하기    
-* <span style="color:red;">!!! 스택에 append한 마지막 숫자를 저장할 변수를 만들어야 함</span> 
-``` python
-last = 1 # 스택에 마지막으로 붙여진 숫자를 저장
+* <span style="color:red;">!!! 스택에 append한 마지막 숫자를 저장할 변수를 만들어야 함</span>    
+   
+  ``` python
+  last = 1 # 스택에 마지막으로 붙여진 숫자를 저장
 
-for i in range(n):
-  number = int(input()) # 숫자 차례로 입력으로 받기
+  for i in range(n):
+    number = int(input()) # 숫자 차례로 입력으로 받기
 
-  while last<=number: # 스택에 마지막으로 붙여진 숫자가 들어오는 숫자보다 같거나 작을 때
-    stack.append(last) # 스택에 n까지의 숫자를 붙임
-    result.append('+') # 붙이는 연산만큼 +도 추가
-    last+=1 # 붙여지는 숫자에 1씩 증가시키기 (붙이는 연산을 한 횟수가 됨)
+    while last<=number: # 스택에 마지막으로 붙여진 숫자가 들어오는 숫자보다 같거나 작을 때
+      stack.append(last) # 스택에 n까지의 숫자를 붙임
+      result.append('+') # 붙이는 연산만큼 +도 추가
+      last+=1 # 붙여지는 숫자에 1씩 증가시키기 (붙이는 연산을 한 횟수가 됨)
 
-  if stack[-1] == number: # 스택의 가장 마지막 요소가 입력되는 숫자랑 같은 경우
-    stack.pop() # 해당 숫자를 반환
-    result.append('-') # 반환하는 연산을 했으니 -를 붙이기
+    if stack[-1] == number: # 스택의 가장 마지막 요소가 입력되는 숫자랑 같은 경우
+      stack.pop() # 해당 숫자를 반환
+      result.append('-') # 반환하는 연산을 했으니 -를 붙이기
 
-  else:
-    print('NO') # 위에 해당하지 않는 경우 (오름차순으로 붙일 수 없게되는 경우)
-    exit(0) # 종료
+    else:
+      print('NO') # 위에 해당하지 않는 경우 (오름차순으로 붙일 수 없게되는 경우)
+      exit(0) # 종료
 
-print('\n'.join(result)) # 한 줄에 한 연산씩 출력 # 한 줄에 한 연산씩 출력
-``` 
+  print('\n'.join(result)) # 한 줄에 한 연산씩 출력 # 한 줄에 한 연산씩 출력
+  ``` 
 
 
 <br>
