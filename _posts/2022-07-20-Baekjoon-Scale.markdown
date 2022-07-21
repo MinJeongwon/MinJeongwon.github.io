@@ -2,7 +2,7 @@
 layout: post
 title:  "백준 음계 문제풀이"
 date:   2022-07-20 07:37:11 +0900
-categories: coding_test data_structure baekjoon
+categories: coding_test baekjoon
 ---
 
 문제 제목 : 2920번 [음계]  
@@ -20,9 +20,12 @@ categories: coding_test data_structure baekjoon
 1부터 8까지 차례대로 연주한다면 ascending, 8부터 1까지 차례대로 연주한다면 descending, 둘 다 아니라면 mixed 이다.    
 
 연주한 순서가 주어졌을 때, **이것이 ascending인지, descending인지, 아니면 mixed인지 판별하는 프로그램을 작성하시오.**
-* ## 입력
+- ## 입력
   첫째 줄에 8개 숫자가 주어진다.    
   이 숫자는 문제 설명에서 설명한 음이며, 1부터 8까지 숫자가 한 번씩 등장한다.
+- ## 출력
+  첫째 줄에 ascending, descending, mixed 중 하나를 출력한다.   
+
 
 
 <br> 
@@ -32,7 +35,7 @@ categories: coding_test data_structure baekjoon
 <br>
 
 
-## 🔔 아이디어
+## 🔔 아이디어 🔔
 배열의 앞뒤 원소를 비교해서,    
 커지면 ascending, 작아지면 descending,    
 두 경우 모두 해당되지 않으면 mixed를 프린트하기
