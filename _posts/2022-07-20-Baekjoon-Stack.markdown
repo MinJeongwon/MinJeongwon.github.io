@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "백준 스택 문제풀이"
-date:   2022-07-20 08:55:11 +0900
+date:   2022-07-21 08:55:11 +0900
 categories: coding_test baekjoon
 ---
 
