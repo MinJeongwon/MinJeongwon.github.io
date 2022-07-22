@@ -63,7 +63,7 @@ cards = list(map(int, input().split(' '))) # 둘째 줄에는 카드에 쓰여 �
 
 ## 방법 1. itertools 사용
 ## itertools로 조합의 합 구하기   
-* itertools의 combination      
+* itertools의 combinations      
   combinations 함수를 사용하면 모든 조합의 경우가 출력됨    
   ``` python
   from itertools import combination

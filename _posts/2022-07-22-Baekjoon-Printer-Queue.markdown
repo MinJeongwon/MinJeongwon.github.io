@@ -27,7 +27,7 @@ categories: coding_test baekjoon
 
 - ## 입력   
   첫 줄에 테스트케이스의 수가 주어진다. 각 테스트케이스는 두 줄로 이루어져 있다.      
-  테스트케이스의 첫 번째 줄에는 문서의 개수 N(1 ≤ N ≤ 100)과,    
+  테스트케이스의 첫 번째 줄에는 문서의 개수 N(1 ≤ N ≤ 100)와,    
   몇 번째로 인쇄되었는지 궁금한 문서가 현재 Queue에서 몇 번째에 놓여 있는지를 나타내는 정수 M(0 ≤ M < N)이 주어진다.
 
   이때 맨 왼쪽은 0번째라고 하자.    
@@ -67,7 +67,7 @@ categories: coding_test baekjoon
 ## 입력받기
 첫 입력으로는 총 입력될 테스트 케이스의 개수가 입력됨        
 ``` python 
-testcase = int(input())
+test_case = int(input())
 ```
 
 
@@ -78,7 +78,7 @@ testcase = int(input())
 ## 1) 요소 개수, 2) 알고 싶은 요소의 위치, 3) 중요도 리스트를 입력받기
 인쇄 연산(pop)을 수행할 때마다 카운트할 변수도 생성
 ``` python
-for _ in range(testcase):
+for _ in range(test_case):
   n, m = list(map(int, input().split(' ')))
   rank = list(map(int, input().aplit(' ')))
 
