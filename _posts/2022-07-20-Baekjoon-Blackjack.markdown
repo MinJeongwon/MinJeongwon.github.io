@@ -169,7 +169,7 @@ print(sum_temp)
 
 
 ## <span style="background-color:#fff5b1;">총정리-for문을 사용하는 방법</span>     
-메모리 : 30840     
+메모리 : 30840KB     
 시간 : 140ms        
 ``` python
 card_len, M = map(int, input().split(' ')) 

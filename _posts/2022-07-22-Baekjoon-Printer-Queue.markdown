@@ -139,7 +139,7 @@ while True:
 
 
 ## <span style="background-color:#fff5b1;">총정리</span>    
-메모리 : 30840     
+메모리 : 30840KB     
 시간 : 120ms   
 ``` python
 test_case = int(input())
